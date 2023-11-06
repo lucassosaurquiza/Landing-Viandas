@@ -1,7 +1,15 @@
+import Header from "../componentes/header"
 
 const ViandasPorUno = () => {
   return (
-    <div>ViandasPorUno</div>
+    <section>
+      <Header />
+      <div className="border flex justify-center">
+        <div className="max-w-3xl border border-blue-600 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos inventore totam sequi qui accusamus natus. Qui nostrum, enim aliquam illo officiis cum quaerat ipsa ea quasi deserunt labore, doloribus neque.
+        </div>
+      </div>
+    </section>
   )
 }
 
