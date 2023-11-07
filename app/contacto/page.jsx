@@ -25,7 +25,7 @@ const Contacto = () => {
       <header>
         <div className="w-full  p-3" style={{ backgroundImage: 'url("/prueba.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="flex justify-between items-center">
-            <div>
+            <div className="hover:bg-orange-200 rounded-lg  p-2 bg-orange-400 transition duration-300 ease-in-out">
               <Link href='/'>
                 <img className="h-20 w-30" src="/nuevo-logo.png" alt="" />
               </Link>
