@@ -26,7 +26,7 @@ const ViandasPorCinco = () => {
           <div className="flex justify-between items-center">
             <div>
               <Link href='/'>
-                <img className="h-20 w-30" src="/logo.png" alt="" />
+                <img className="h-20 w-30" src="/nuevo-logo.png" alt="" />
               </Link>
             </div>
             <div className="md:hidden">
