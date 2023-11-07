@@ -42,7 +42,7 @@ export default function Home() {
           <section className="bg-orange-400 p-5 cursor-pointer hover:bg-orange-300 hover:scale-105 transition duration-300 ease-in-out rounded-lg mb-5">
             <div className="border-2 border-gray-800 flex justify-center items-center flex-col h-full mb-5">
               <h2 className=" lg:text-2xl  font-bold  text-gray-800 ">
-                PLATO DIARIO
+               VIANDAS MENSUALES
               </h2>
             </div>
             <p className="text-white border-white border-2 justify-center flex bg-gray-800 p-2 md:text-xl mb-5">
