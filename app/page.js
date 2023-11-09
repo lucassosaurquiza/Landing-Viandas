@@ -22,12 +22,12 @@ export default function Home() {
   return (
     <main className="relative flex flex-col items-center justify-center h-screen text-white">
       <img className="w-full h-full absolute object-cover" src="/prueba.jpg" alt="" />
-      <img className="absolute md:top-5 md:right-5 md:h-28 md:w-40 top-3 h-40 w-56 lg:h-24 lg:w-32" src="/nuevo-logo.png" alt="" />
+      <img className="absolute md:top-5 md:right-5 md:h-28 md:w-40 top-3 h-40 w-56 lg:h-24 lg:w-32 bg-orange-400 rounded-lg  p-2 " src="/nuevo-logo.png" alt="" />
       <h2 className="text-white text-2xl lg:text-5xl font-bold absolute top-10 md:top-5 left-90  hidden md:block">
         LA COCINA DE EDU
       </h2>
       <p className="text-white text-lg font-bold absolute top-44 block md:hidden">
-        Viandas a domicilio
+      ¿Qué estás buscando?
       </p>
       <p className=" text-white lg:text-lg font-bold absolute top-20 lg:left-80  hidden lg:block">
         CONTRATA TU VIANDA Y TENELA POR 20 DIAS COMPLETOS, NI UN DIA MAS, NI UN DIA MENOS
@@ -133,7 +133,7 @@ export default function Home() {
           </section>
         </Link>
       </div>
-      <a className="fixed bottom-5 right-5" href="https://api.whatsapp.com/send?phone=+543794077764&text=Hola,%20quiero%20hacer%20un%20pedido">
+      <a className="fixed bottom-5 right-5" href="https://api.whatsapp.com/send?phone=+543794394705&text=Hola,%20me%20gustaria%20hacer%20una%20consulta">
         <button className="bg-green-500 text-white p-2 rounded-full hover:bg-green-600 transition duration-300 ease-in-out">
           <AiOutlineWhatsApp className="text-4xl" />
         </button>
