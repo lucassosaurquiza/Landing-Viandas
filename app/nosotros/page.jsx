@@ -58,23 +58,23 @@ const Nosotros = () => {
         <h2 className="text-orange-400 font-bold justify-center flex text-5xl mb-10 text-center">
           Nosotros
         </h2>
-        <h3 className="font-bold text-xl mb-3">
+        <h3 className="font-bold text-xl mb-3 text-gray-800">
           ¿Quienes Somos?
         </h3>
-        <p className="font-semibold mb-10">
+        <p className="font-semibold mb-10 text-gray-800">
           Somos una empresa con mas de 20 años en el mercado regional. Mas de 5.000 personas que probaron nuestro servicio aun nos continuan eligiendo.
           La Cocina de Edu nacio con el legajo familiar siendo Eduardo Urquiza el que sento los primeros pasos en la industria. En la actualidad nos
           encontramos trabajando para mas de 40 personas que mes a mes continuan prefiriendo el sabor antes que el costo, y si, eso nos caracteriza como
           industria.
         </p>
-        <h3 className="font-bold text-xl mb-3">
+        <h3 className="font-bold text-xl mb-3 text-gray-800">
           ¿Por que elegirnos?
         </h3>
-        <p className="font-semibold mb-10">
+        <p className="font-semibold mb-10 text-gray-800">
           Ya sabes!! Si preferis sabor antes que costo, te dejamos nuestro numero al que podes contactarte las 24hs y sin costo alguno. Tu consulta no es
           molestia. Animate a probar un sabor diferente.
         </p>
-        <h3 className="font-bold text-xl mb-3">
+        <h3 className="font-bold text-xl mb-3 text-gray-800">
           Preguntas Frecuentes
         </h3>
         <p className="font-semibold mb-10">

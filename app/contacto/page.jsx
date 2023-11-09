@@ -59,21 +59,21 @@ const Contacto = () => {
           Contacto
         </p>
         <div className="bg-orange-100 p-3 rounded-md">
-         <p className="justify-center flex font-bold mb-5 md:text-xl text-center">
+         <p className="justify-center flex font-bold mb-5 md:text-xl text-center text-gray-800">
          Dejanos tu contacto por cualquier consulta que tengas, te respondemos a la brevedad.
          </p>
          <div className="md:max-w-4xl">
          <form action="" className="justify-center  flex-col  mb-5 ">
           <div className="flex flex-col md:flex">
-          <label className="mr-3">Nombre:</label>
+          <label className="mr-3 text-gray-800 font-bold">Nombre:</label>
           <input type="text" name="nombre" placeholder="Nombre" className="rounded-md p-1 mb-2" />
-          <label className="mr-3">Correo:</label>
+          <label className="mr-3 text-gray-800 font-bold">Correo:</label>
           <input type="text" name="correo" placeholder="Correo" className="rounded-md p-1 mb-2" />
           </div>
           <div className="flex flex-col">
-          <label className="mr-3">Numero:</label>
+          <label className="mr-3 text-gray-800 font-bold">Numero:</label>
           <input type="text" name="numero" placeholder="Numero" className="rounded-md p-1 mb-2" />
-          <label htmlFor="">Mensaje detallado:</label>
+          <label className="font-bold text-gray-800">Mensaje detallado:</label>
           <textarea name="" id="" cols="30" rows="10"></textarea>
           </div>
          </form>
