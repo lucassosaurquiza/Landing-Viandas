@@ -65,7 +65,7 @@ const ViandasPorSeis = () => {
             Informate de lo que podes encontrar en nuestro menu para 6 personas a continuacion:
           </h2>
           <div className=" flex flex-col items-center mb-5">
-            <div className="border bg-amber-300 p-5">
+            <div className="border bg-amber-600 p-5">
               <p className="font-bold md:text-3xl mb-3 text-white">
                 Esta opcion incluye
               </p>
