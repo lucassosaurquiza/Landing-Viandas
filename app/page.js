@@ -105,7 +105,7 @@ export default function Home() {
         </Link>
 
         <Link href='/viandas-X6'>
-          <div className=" absolute lg:top-0 bottom-32 right-2 bg-red-500 text-white p-2 rounded-full text-xs font-bold z-10">
+          <div className=" absolute md:top-0 right-2 bg-red-500 text-white p-2 rounded-full text-xs font-bold z-10">
             Exclusivo
           </div>
           <section className=" p-5 cursor-pointer hover:bg-amber-300 hover:scale-105 transition duration-300 ease-in-out rounded-lg border hover:border-none shadow-2xl">
