@@ -99,7 +99,7 @@ export default function Home() {
           <div className=" absolute md:top-0 right-2 bg-red-500 text-white p-2 rounded-full text-xs font-bold z-10">
             Exclusivo
           </div>
-          <section className=" p-5 cursor-pointer hover:bg-amber-300 hover:scale-105 transition duration-300 ease-in-out rounded-lg border hover:border-none shadow-2xl">
+          <section className=" p-5 cursor-pointer hover:bg-amber-600 hover:scale-105 transition duration-300 ease-in-out rounded-lg border hover:border-none shadow-2xl">
             <div className="border-2 border-gray-800 flex justify-center items-center p-1 flex-col h-full mb-3 md:p-1">
               <h2 className="  md:text-md text-xs md:text-md  font-bold  text-white ">
                 VIANDAS POR 6 PERSONAS
