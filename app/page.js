@@ -109,7 +109,7 @@ export default function Home() {
             Exclusivo
           </div>
           <section className=" p-5 cursor-pointer hover:bg-amber-300 hover:scale-105 transition duration-300 ease-in-out rounded-lg border hover:border-none shadow-2xl">
-            <div className="border-2 border-gray-800 flex justify-center items-center flex-col h-full mb-5 md:p-1">
+            <div className="border-2 border-gray-800 flex justify-center items-center p-1 flex-col h-full mb-5 md:p-1">
               <h2 className="  md:text-md text-xs md:text-md  font-bold  text-white ">
                 VIANDAS POR 6 PERSONAS
               </h2>
