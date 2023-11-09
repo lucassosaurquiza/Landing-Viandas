@@ -26,8 +26,11 @@ export default function Home() {
       <h2 className="text-white text-2xl lg:text-5xl font-bold absolute top-10 md:top-5 left-90  hidden md:block">
         LA COCINA DE EDU
       </h2>
-      <p className="text-white text-lg font-bold absolute top-44 block md:hidden">
+      <p className="text-white text-xl font-bold absolute top-48 block md:hidden">
         ¿Qué estás buscando?
+      </p>
+      <p className="text-white text-xl font-bold absolute top-56 block md:hidden">
+        Elegi tu Opcion:
       </p>
       <p className=" text-white lg:text-lg font-bold absolute top-20 lg:left-80  hidden lg:block">
         CONTRATA TU VIANDA Y TENELA POR 20 DIAS COMPLETOS, NI UN DIA MAS, NI UN DIA MENOS
@@ -38,12 +41,10 @@ export default function Home() {
       <BsFillArrowDownCircleFill className=" text-gray-800 text-4xl font-bold absolute top-56 lg:left-72 md:top-64 md:left-44 justify-center lg:flex hidden" />
       <BsFillArrowDownCircleFill className=" text-gray-800 text-4xl font-bold absolute top-56 lg:right-2/4 md:top-64 md:right-44  justify-center lg:flex hidden" />
       <BsFillArrowDownCircleFill className=" text-gray-800 text-4xl font-bold absolute top-56 lg:right-72 md:top-64 md:right-36  justify-center lg:flex hidden" />
-      <div className="absolute top-52 md:top-72  md:flex md:gap-5 p-3 px-10">
+      <div className="absolute top-64 md:top-72  md:flex md:gap-5 p-3 px-10">
         <Link href='/viandas-X1'>
-
           <section className="border p-5 cursor-pointer hover:bg-orange-300 hover:scale-105 transition duration-300 ease-in-out rounded-lg mb-5 hover:border-none shadow-2xl">
-
-            <div className="border-2 border-gray-800 flex justify-center items-center flex-col h-full mb-5 md:p-1">
+            <div className="border-2 border-gray-800 flex justify-center items-center p-1 flex-col h-full mb-5 md:p-1">
               <h2 className=" md:text-md  text-xs font-bold  text-white ">
                 VIANDAS INDIVIDUALES
               </h2>
@@ -66,17 +67,15 @@ export default function Home() {
             <p className="text-white  border-white border-2 justify-center flex bg-gray-800 p-2 md:text-md mb-3">
               + info del plan
             </p>
-
           </section>
         </Link>
 
         <Link href='/viandas-X3'>
-          <div className="absolute lg:right-1/3 lg:top-0 md:top-0 md:right-60 top-40 right-0 bg-red-500 text-white p-2 rounded-full text-xs font-bold z-10">
+          <div className="absolute lg:right-1/3 lg:top-0 md:top-0 md:right-60 top-40 right-2 bg-red-500 text-white p-2 rounded-full text-xs font-bold z-10">
             Exclusivo
           </div>
           <section className=" p-5 cursor-pointer hover:bg-amber-800 hover:scale-105 transition duration-300 ease-in-out rounded-lg border hover:border-none mb-5 shadow-2xl">
-
-            <div className="border-2 border-gray-800 flex justify-center items-center flex-col h-full mb-5 md:p-1">
+            <div className="border-2 border-gray-800 flex justify-center items-center p-1 flex-col h-full mb-5 md:p-1">
               <h2 className="  md:text-md text-xs md:text-md font-bold  text-white ">
                 VIANDAS POR 3 PERSONAS
               </h2>
@@ -105,8 +104,8 @@ export default function Home() {
           </section>
         </Link>
 
-        <Link href='/viandas-X5'>
-          <div className=" absolute lg:top-0 top-0 right-2 bg-red-500 text-white p-2 rounded-full text-xs font-bold z-10">
+        <Link href='/viandas-X6'>
+          <div className=" absolute lg:top-0 bottom-32 right-2 bg-red-500 text-white p-2 rounded-full text-xs font-bold z-10">
             Exclusivo
           </div>
           <section className=" p-5 cursor-pointer hover:bg-amber-300 hover:scale-105 transition duration-300 ease-in-out rounded-lg border hover:border-none shadow-2xl">
