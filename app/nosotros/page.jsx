@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useEffect, useState } from "react";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import Modal from "../componentes/modal";
+import Example from "../componentes/disclosure";
 
 const Nosotros = () => {
 
@@ -53,25 +54,37 @@ const Nosotros = () => {
         </div>
       </header>
 
-      <div className="border mt-10 p-3">
+      <div className="pt-10 p-3 flex flex-col justify-center max-w-4xl lg:mx-auto lg:my-auto sm:mx-auto sm:my-auto">
         <h2 className="text-orange-400 font-bold justify-center flex text-5xl mb-10 text-center">
           Nosotros
         </h2>
+        <h3 className="font-bold text-xl mb-3">
+          ¿Quienes Somos?
+        </h3>
         <p className="font-semibold mb-10">
-          Somos una empresa con mas de 20 años en el mercado regional. Mas de 5.000 personas que probaron nuestro servicio aun nos continuan eligiendo. 
-          La Cocina de Edu nacio con el legajo familiar siendo Eduardo Urquiza el que sento los primeros pasos en la industria. En la actualidad nos 
+          Somos una empresa con mas de 20 años en el mercado regional. Mas de 5.000 personas que probaron nuestro servicio aun nos continuan eligiendo.
+          La Cocina de Edu nacio con el legajo familiar siendo Eduardo Urquiza el que sento los primeros pasos en la industria. En la actualidad nos
           encontramos trabajando para mas de 40 personas que mes a mes continuan prefiriendo el sabor antes que el costo, y si, eso nos caracteriza como
-          industria. 
+          industria.
         </p>
+        <h3 className="font-bold text-xl mb-3">
+          ¿Por que elegirnos?
+        </h3>
         <p className="font-semibold mb-10">
-          Ya sabes!! Si preferis sabor antes que costo, te dejamos nuestro numero al que podes contactarte las 24hs y sin costo alguno. Tu consulta no es 
+          Ya sabes!! Si preferis sabor antes que costo, te dejamos nuestro numero al que podes contactarte las 24hs y sin costo alguno. Tu consulta no es
           molestia. Animate a probar un sabor diferente.
+        </p>
+        <h3 className="font-bold text-xl mb-3">
+          Preguntas Frecuentes
+        </h3>
+        <p className="font-semibold mb-10">
+        <Example/>
         </p>
       </div>
 
 
 
-      <a className="fixed bottom-5 right-5" href="https://api.whatsapp.com/send?phone=+543794077764&text=Hola,%20quiero%20hacer%20un%20pedido">
+      <a className="fixed bottom-5 right-5" href="https://api.whatsapp.com/send?phone=+543794394705&text=Hola,%20me%20gustaria%20hacer%20una%20consulta">
         <button className="bg-green-500 text-white p-2 rounded-full hover:bg-green-600 transition duration-300 ease-in-out">
           <AiOutlineWhatsApp className="text-4xl" />
         </button>
