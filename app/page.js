@@ -27,7 +27,7 @@ export default function Home() {
         LA COCINA DE EDU
       </h2>
       <p className="text-white text-lg font-bold absolute top-44 block md:hidden">
-      ¿Qué estás buscando?
+        ¿Qué estás buscando?
       </p>
       <p className=" text-white lg:text-lg font-bold absolute top-20 lg:left-80  hidden lg:block">
         CONTRATA TU VIANDA Y TENELA POR 20 DIAS COMPLETOS, NI UN DIA MAS, NI UN DIA MENOS
@@ -40,7 +40,7 @@ export default function Home() {
       <BsFillArrowDownCircleFill className=" text-gray-800 text-4xl font-bold absolute top-56 lg:right-72 md:top-64 md:right-36  justify-center lg:flex hidden" />
       <div className="absolute top-52 md:top-72  md:flex md:gap-5 p-3 px-10">
         <Link href='/viandas-X1'>
-       
+
           <section className="border p-5 cursor-pointer hover:bg-orange-300 hover:scale-105 transition duration-300 ease-in-out rounded-lg mb-5 hover:border-none shadow-2xl">
 
             <div className="border-2 border-gray-800 flex justify-center items-center flex-col h-full mb-5 md:p-1">
@@ -82,7 +82,10 @@ export default function Home() {
               </h2>
             </div>
             <p className="text-white mb-1 text-xs lg:text-lg hidden md:block font-bold">
-              - Pagan 2, comen 3.
+              - Incluye porcion abundante con pan o postre.
+            </p>
+            <p className="text-white mb-1 text-xs lg:text-lg hidden md:block font-bold">
+              - Opcion a cambio de menu.
             </p>
             <p className="text-white mb-1 text-xs lg:text-lg hidden md:block font-bold">
               - Entrega a domicilio entre las 12:00 am. y 14:00 pm.
@@ -103,17 +106,20 @@ export default function Home() {
         </Link>
 
         <Link href='/viandas-X5'>
-        <div className=" absolute lg:top-0 top-0 right-2 bg-red-500 text-white p-2 rounded-full text-xs font-bold z-10">
-        Exclusivo
+          <div className=" absolute lg:top-0 top-0 right-2 bg-red-500 text-white p-2 rounded-full text-xs font-bold z-10">
+            Exclusivo
           </div>
           <section className=" p-5 cursor-pointer hover:bg-amber-300 hover:scale-105 transition duration-300 ease-in-out rounded-lg border hover:border-none shadow-2xl">
             <div className="border-2 border-gray-800 flex justify-center items-center flex-col h-full mb-5 md:p-1">
               <h2 className="  md:text-md text-xs md:text-md  font-bold  text-white ">
-                VIANDAS POR 5 PERSONAS
+                VIANDAS POR 6 PERSONAS
               </h2>
             </div>
             <p className="text-white mb-1 text-xs lg:text-lg hidden md:block font-bold">
-              - Pagan 3, comen 5.
+              - Incluye porcion abundante con pan y postre.
+            </p>
+            <p className="text-white mb-1 text-xs lg:text-lg hidden md:block font-bold">
+              - Opcion a cambio de menu.
             </p>
             <p className="text-white mb-1 text-xs lg:text-lg hidden md:block font-bold">
               - Entrega a domicilio entre las 12:00 am. y 14:00 pm.
