@@ -88,7 +88,6 @@ export default function Example() {
                 </Disclosure.Panel>
               </Transition>
 
-              https://github.com/lucassosaurquiza
             </>
           )}
         </Disclosure>
