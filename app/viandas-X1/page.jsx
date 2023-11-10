@@ -104,19 +104,19 @@ const ViandasPorUno = () => {
             </div>
             <div className="flex-col flex justify-center items-center">
               <p className="text-orange-400 font-semibold mb-3">
-             /  Pollo Principe 
+                /  Pollo Principe
               </p>
               <img className="md:h-40 h-24 w-52" src="/pollo-principe.jpg" alt="" />
             </div>
             <div className="flex-col flex justify-center items-center">
               <p className="text-orange-400 font-semibold mb-3">
-             /  Pollo al horno
+                /  Pollo al horno
               </p>
               <img className="md:h-40 h-24 w-52" src="/pollo-al-horno.jpg" alt="" />
             </div>
             <div className="flex-col flex justify-center items-center">
               <p className="text-orange-400 font-semibold mb-3">
-             /  Pollo Principe
+                /  Pollo Principe
               </p>
               <img className="md:h-40 h-24 w-52" src="/pollo-principe.jpg" alt="" />
             </div>
@@ -124,8 +124,11 @@ const ViandasPorUno = () => {
           <h2 className="text-lg md:text-4xl font-bold flex justify-center mb-5 text-gray-800">
             ¿Cuando me conviene elegir esta opcion?
           </h2>
-          <p className="text-gray-800">
-            Esta opcion es muy conveniente si sos estudiante 
+          <p className="text-gray-800 text-left font-semibold">
+            - Vivis solo. ✅<br />
+            - Tenes muchas ocupaciones durante el dia y no tenes tiempo para cocinarte. ✅ <br />
+            - No te gusta cocinar o no sabes que cocinarte. ✅ <br />
+            - Queres ahorrar tiempo y dinero. ✅
           </p>
         </div>
       </div>

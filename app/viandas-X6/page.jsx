@@ -123,8 +123,11 @@ const ViandasPorSeis = () => {
           <h2 className="text-md md:text-4xl font-bold flex justify-center mb-5 text-gray-800">
             ¿Cuando me conviene elegir esta opcion?
           </h2>
-          <p className="text-gray-800">
-            Esta opcion es muy conveniente si sos estudiante
+          <p className="text-gray-800 text-left font-semibold">
+            - Vivis con tus amigos. ✅<br />
+            - Vivis con tu o tus hermanos. ✅ <br />
+            - Vivis con tu pareja. ✅ <br />
+            - Ideal para vos y tus compañeros de trabajo. ✅
           </p>
         </div>
       </div>
