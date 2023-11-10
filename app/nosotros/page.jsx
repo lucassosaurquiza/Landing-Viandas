@@ -62,23 +62,21 @@ const Nosotros = () => {
           ¿Quienes Somos?
         </h3>
         <p className="font-semibold mb-10 text-gray-800">
-          Somos una empresa con mas de 20 años en el mercado regional. Mas de 5.000 personas que probaron nuestro servicio aun nos continuan eligiendo.
-          La Cocina de Edu nacio con el legajo familiar siendo Eduardo Urquiza el que sento los primeros pasos en la industria. En la actualidad nos
-          encontramos trabajando para mas de 40 personas que mes a mes continuan prefiriendo el sabor antes que el costo, y si, eso nos caracteriza como
-          industria.
+          Somos una empresa con más de 20 años en el mercado regional. Más de 5,000 personas que probaron nuestro servicio aún nos continúan eligiendo.
+          La Cocina de Edu nació con el legado familiar, siendo Eduardo Urquiza quien sentó los primeros pasos en la industria.
+          En la actualidad, nos encontramos trabajando para más de 40 personas que mes a mes continúan prefiriendo el sabor antes que el costo, y sí, eso nos caracteriza como industria.
         </p>
         <h3 className="font-bold text-xl mb-3 text-gray-800">
           ¿Por que elegirnos?
         </h3>
         <p className="font-semibold mb-10 text-gray-800">
-          Ya sabes!! Si preferis sabor antes que costo, te dejamos nuestro numero al que podes contactarte las 24hs y sin costo alguno. Tu consulta no es
-          molestia. Animate a probar un sabor diferente.
+        ¡Ya sabes! Si prefieres sabor antes que costo, dirígete al ícono de WhatsApp, donde podremos responderte de manera inmediata. Tu consulta no es molestia. Anímate a probar un sabor diferente. 
         </p>
         <h3 className="font-bold text-xl mb-3 text-gray-800">
           Preguntas Frecuentes
         </h3>
         <p className="font-semibold mb-10">
-        <Example/>
+          <Example />
         </p>
       </div>
 
