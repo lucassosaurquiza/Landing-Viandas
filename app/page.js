@@ -32,7 +32,7 @@ export default function Home() {
       <p className="text-white text-xl font-bold absolute top-56 block md:hidden">
         Elegi tu Opcion:
       </p>
-      <p className=" text-white lg:text-lg font-bold absolute top-20 lg:left-80  hidden lg:block">
+      <p className=" text-white lg:text-lg font-bold absolute top-20 hidden lg:block">
         CONTRATA TU VIANDA Y TENELA POR 20 DIAS COMPLETOS, NI UN DIA MAS, NI UN DIA MENOS
       </p>
       <p className="lg:bg-gray-800 py-2 text-white lg:text-4xl text-2xl font-bold absolute top-56 lg:top-40 md:left-40 lg:left-96 w-2/4 justify-center  hidden md:flex">
