@@ -95,25 +95,25 @@ const ViandasPorTres = () => {
             Algunos de nuestros menús de la semana
           </h2>
           <div className="md:flex  justify-center gap-5 p-3 mb-10">
-            <div className="flex-col flex justify-center items-center bg-amber-800 p-5 rounded-md shadow-xl">
+            <div className="flex-col flex justify-center items-center mb-5 bg-amber-800 p-5 rounded-md shadow-xl">
               <p className="text-white font-semibold mb-3">
                 / Milanesa con ensalada mixta
               </p>
               <img className="relative w-60 h-40 md:h-32 rounded-full" src="/milanesa.png" alt="" />
             </div>
-            <div className="flex-col flex justify-center items-center bg-amber-800 p-5 rounded-md shadow-xl">
-              <p className="text-white font-semibold mb-3">
+            <div className="flex-col flex justify-center items-center mb-5 bg-amber-800 p-5 rounded-md shadow-xl">
+              <p className="text-white font-semibold mb-3"> 
                 / Pollo Príncipe
               </p>
               <img className="relative w-60 h-40 md:h-32 rounded-full" src="/pollo-principe.jpg" alt="" />
             </div>
-            <div className="flex-col flex justify-center items-center bg-amber-800 p-5 rounded-md shadow-xl">
+            <div className="flex-col flex justify-center items-center mb-5 bg-amber-800 p-5 rounded-md shadow-xl">
               <p className="text-white font-semibold mb-3">
                 / Pollo al horno
               </p>
               <img className="relative w-60 h-40 md:h-32 rounded-full" src="/pollo-al-horno.jpg" alt="" />
             </div>
-            <div className="flex-col flex justify-center items-center bg-amber-800 p-5 rounded-md shadow-xl">
+            <div className="flex-col flex justify-center items-center mb-5 bg-amber-800 p-5 rounded-md shadow-xl">
               <p className="text-white font-semibold mb-3">
                 / Pollo Príncipe
               </p>
